@@ -1,0 +1,8 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
+			"package": "wrangler"
+		}
+	}
+}

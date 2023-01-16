@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler publish src/index.ts"
+  },
+  "devDependencies": {
+    "wrangler": "^2.7.1"
+  }
+}
