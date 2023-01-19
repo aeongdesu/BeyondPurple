@@ -1,13 +1,19 @@
-# BeyondPurple
-트위치 VOD/1080p 프록싱 우회 테스트
-
-> **Note**\
-> `/?url={m3u8}`\
-> returns stream through server (test)
-
+# BeyondPurple-Hola
 > **Warning**\
-> 영상 자체를 프록싱하기 때문에 직접 호스팅하여 테스트 해주세요.
+> 구현 중입니다!\
+> 트위치가 이미 Hola 서버들을 막았는지 확인하지 못했습니다.
+>
+> **Note**\
+> Hola 일본서버에 접속해 영상 자체를 프록싱합니다.
+- Hola에서 밴을 당하실 수도 있습니다, 개인이 사용하는걸 추천드립니다.[^1]
+- 트래픽 감당이 가능한 개인 서버에서 호스팅 해주세요.
 
-## 결과
-720p 이하 스트림은 잘 나오는데 1080p는 아예 안됨\
-VOD는 정상 작동 -> 하지만 workers 플랜 제한으로 한도 초과 에러가 발생함
+
+# How to
+```shell
+npm install
+npm start
+```
+
+
+[^1]: [luminous-ttv](https://github.com/AlyoshaVasilieva/luminous-ttv#possible-issues)에서도 언급되었습니다.
